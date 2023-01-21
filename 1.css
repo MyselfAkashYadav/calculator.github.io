@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(105, 88, 88);
+    font-family:'Courier New', Courier, monospace;
+    /* outline: none; */
+    
+}
+::placeholder{
+    color: black;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calframe{
+    background-color: rgb(52, 52, 52);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 2px 2px 15px rgb(209, 108, 108),2px 2px 15px rgb(38, 17, 17);
+    display: grid;
+    grid-template-columns: repeat(4,69px);
+}
+input{
+    grid-column: span 4;
+    height:70px;
+    width:260px;
+    background-color: rgb(158, 118, 118);
+    box-shadow: inset -2px -2px 15px rgb(66, 64, 64),inset 2px 2px 15px rgb(22, 11, 11);
+    border: none;
+    border-radius: 30px;
+    color: black;
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+button{
+    height: 48px;
+    width: 48px;
+    background-color: rgb(49, 45, 45);
+    box-shadow: -2px -2px 15px rgb(62, 59, 59),2px 2px 15px rgb(93, 66, 66);
+    border-radius: 15px;
+    border: none;
+    margin: 8px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.ans{
+    width: 110px;
+    border-radius: 40px;
+    background-color: rgb(49, 45, 45);
+    box-shadow: -2px -2px 15px rgb(62, 59, 59),2px 2px 15px rgb(93, 66, 66);
+    
+    border: none;
+    
+    
+}
+
+
